@@ -1,0 +1,73 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="bYNx9QWfdhMb6X9qZhm9">
+    <mxGraphModel dx="842" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ce4caEwj3vIweR9Y5uxt-8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;entryX=0.469;entryY=0;entryDx=0;entryDy=0;" target="ce4caEwj3vIweR9Y5uxt-7">
+          <mxGeometry relative="1" x="-0.2781" as="geometry">
+            <mxPoint x="250" y="174.5" as="sourcePoint" />
+            <mxPoint x="420" y="174.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ce4caEwj3vIweR9Y5uxt-2" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="190" width="210" x="40" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ce4caEwj3vIweR9Y5uxt-4" parent="ce4caEwj3vIweR9Y5uxt-2" style="rounded=0;whiteSpace=wrap;html=1;" value="APP UI" vertex="1">
+          <mxGeometry height="40" width="75" x="25" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ce4caEwj3vIweR9Y5uxt-5" parent="ce4caEwj3vIweR9Y5uxt-2" style="rounded=0;whiteSpace=wrap;html=1;" value="GAME INTERFACE" vertex="1">
+          <mxGeometry height="40" width="75" x="25" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ce4caEwj3vIweR9Y5uxt-6" parent="ce4caEwj3vIweR9Y5uxt-2" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;CLIENT&lt;br&gt;SIDE&lt;br&gt;VALIDATION&lt;/font&gt;" vertex="1">
+          <mxGeometry height="110" width="75" x="120" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ce4caEwj3vIweR9Y5uxt-10" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="ce4caEwj3vIweR9Y5uxt-2">
+          <mxGeometry relative="1" x="-0.1399" as="geometry">
+            <mxPoint x="345" y="309.5" as="sourcePoint" />
+            <mxPoint x="140" y="309.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ce4caEwj3vIweR9Y5uxt-15" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.164;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390.9999999999998" y="380.0000000000001" as="sourcePoint" />
+            <mxPoint x="390.68000000000006" y="439.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ce4caEwj3vIweR9Y5uxt-17" edge="1" parent="1" source="ce4caEwj3vIweR9Y5uxt-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;entryX=0;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" target="ce4caEwj3vIweR9Y5uxt-11">
+          <mxGeometry relative="1" x="-0.3098" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="310" />
+              <mxPoint x="540" y="180" />
+            </Array>
+            <mxPoint x="550" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ce4caEwj3vIweR9Y5uxt-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="SERVER&lt;div&gt;(NODE JS)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(Client Management &amp;amp;&lt;br&gt;Game Logic)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="160" x="345" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ce4caEwj3vIweR9Y5uxt-18" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;entryX=0.991;entryY=0.716;entryDx=0;entryDy=0;" target="ce4caEwj3vIweR9Y5uxt-7">
+          <mxGeometry relative="1" x="-0.6537" as="geometry">
+            <Array as="points">
+              <mxPoint x="703" y="340.8" />
+            </Array>
+            <mxPoint x="703.0000000000002" y="250" as="sourcePoint" />
+            <mxPoint x="510" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ce4caEwj3vIweR9Y5uxt-11" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="DATABASE&lt;br&gt;&lt;div&gt;(Mongo DB)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(User Info &amp;amp;&lt;br&gt;Game State)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="140" x="630" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ce4caEwj3vIweR9Y5uxt-16" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="457" y="439.9999999999999" as="sourcePoint" />
+            <mxPoint x="457" y="380.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ce4caEwj3vIweR9Y5uxt-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="SERVER SIDE&lt;br&gt;VALIDATION" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="440" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,30 @@
+{
+  "name": "lukochuri",
+  "version": "1.0.0",
+  "description": "An indie manhunt game",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "<to-be-added>"
+  },
+  "keywords": [
+    "manhunt"
+  ],
+  "author": "collaborated (rudro, abhi, ...)",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "ejs": "^7.0.2",
+    "express": "^5.3.0",
+    "express-session": "^1.19.0",
+    "mongoose": "^9.11.4",
+    "socket.io": "^4.8.4",
+    "ua-parser-js": "^2.0.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

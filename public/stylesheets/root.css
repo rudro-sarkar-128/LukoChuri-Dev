@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+* {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+:root {
+    --defaultCol: #131416;
+    --defaultLowOpac: #3b3a3a;
+    --defaultTxt: #ffffff;
+}

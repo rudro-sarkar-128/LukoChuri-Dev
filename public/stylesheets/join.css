@@ -1,0 +1,242 @@
+html,
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: var(--defaultCol);
+}
+
+.app {
+    width: 100%;
+    height: 100%;
+}
+
+.page {
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 85%;
+    width: 90%;
+}
+
+.branding {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.input-container {
+    width: 100%;
+    height: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.branding img {
+    height: 70%;
+    width: 70%;
+    object-fit: cover;
+}
+
+.discontinuous-seperator-cont {
+    width: 95%;
+    height: 0.1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.discontinuous-seperator-cont div {
+    height: 100%;
+    width: 45%;
+    background: var(--defaultLowOpac);
+}
+
+.join-form {
+    width: 90%;
+    height: 80%;
+    /* background: #181b24;
+    border: 2px solid #282d3c; */
+}
+
+.join-intro {
+    font-size: 2rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.email-input-cont,
+.password-input-cont,
+.confirm-password-input-cont {
+    height: 15%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #181b24;
+    border: 2px solid #282d3c;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+.email-input-cont input,
+.password-input-cont input,
+.confirm-password-input-cont input {
+    height: 75%;
+    width: 85%;
+    color: var(--defaultTxt);
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.email-input-cont input:focus,
+.password-input-cont input:focus,
+.confirm-password-input-cont input:focus {
+    border: none;
+    outline: none;
+}
+
+.email-input-cont span,
+.password-input-cont span,
+.confirm-password-input-cont span {
+    height: 100%;
+    width: 15%;
+    color: #cd2a32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.pass-showhide-btn {
+    color: rgb(231, 171, 98);
+    margin-right: 0.5rem;
+    opacity: 0.7;
+}
+
+.extras-cont {
+    height: 20%;
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.extras-cont div {
+    width: 90%;
+    height: 45%;
+}
+
+.toc-cont {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.1rem;
+    color: var(--defaultTxt);
+}
+
+.toc-cont input {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #181b24;
+    border: 2px solid #282d3c;
+    border-radius: 50%;
+    display: inline-grid;
+    place-content: center;
+}
+
+.toc-cont input:checked {
+    background-color: #cd2a32;
+    border-color: #ea1e28;
+}
+
+.toc-cont input:checked::before {
+    content: "";
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.toc-cont a {
+    color: #cd2a32;
+}
+
+.ask-login-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    color: var(--defaultTxt);
+}
+
+.ask-login-cont a {
+    color: rgb(231, 171, 98);
+}
+
+.join-form .join-btn {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+
+.join-form .join-btn .join-btn-cont {
+    height: 90%;
+    width: 40%;
+    background: #cd2a32;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--defaultTxt);
+    border-radius: 8px;
+    box-shadow:
+        2px 2px 0px #8b1823,
+        2px 2px 0px #000000;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+.join-form .join-btn .join-btn-cont button {
+    height: 100%;
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 1.1rem;
+    color: var(--defaultTxt);
+}
+
+.join-form .join-btn .join-btn-cont:active {
+    scale: 0.85;
+}
