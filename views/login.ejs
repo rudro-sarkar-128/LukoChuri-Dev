@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Back - LukoChuri</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="/stylesheets/root.css">
+    <link rel="stylesheet" href="/stylesheets/login.css">
+</head>
+
+<body>
+
+    <div class="app">
+        <main class="page">
+
+            <div class="container">
+                <div class="branding">
+                    <img src="/images/name_1.png" alt="brand">
+                </div>
+                <div class="discontinuous-seperator-cont">
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="input-container">
+                    <p class="login-intro">Welcome Back</p>
+                    <form action="/login" method="post" class="login-form">
+                        <div class="email-input-cont">
+                            <span><i class="fa-solid fa-at"></i></span>
+                            <input type="email" name="email" id="email" placeholder="Enter Your Email">
+                        </div>
+                        <div class="password-input-cont">
+                            <span><i class="fa-solid fa-lock"></i></span>
+                            <input type="password" name="password" id="passwd" placeholder="Enter Your Password" min="6"
+                                max="36">
+                            <span id="pass_showhide_btn">
+                                <i class="fa-regular fa-eye pass-showhide-btn"></i>
+                            </span>
+                        </div>
+                        <div class="extras-cont">
+                            <div class="ask-login-cont">
+                                <span>First Time Here? <a href="/join">Register</a></span>
+                            </div>
+                        </div>
+
+                        <div class="error-display"></div>
+
+                        <div class="login-btn">
+                            <div class="login-btn-cont">
+                                <button type="submit">Log In</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="/scripts/loginPage.js"></script>
+</body>
+
+</html>

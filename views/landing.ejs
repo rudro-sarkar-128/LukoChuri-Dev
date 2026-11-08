@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="play-now-btn">
-                    <div class="play-now-btn-cont">
+                    <div class="play-now-btn-cont" id="play_now_btn">
                         <span>Play Now</span>
                         <i class="fa-solid fa-person-running"></i>
                     </div>
@@ -61,6 +61,15 @@
         </main>
     </div>
 
+
+    <script>
+        const playNowBtn = document.getElementById("play_now_btn");
+
+        playNowBtn.addEventListener('click', e => {
+            e.preventDefault();
+            location.href = "/join";
+        });
+    </script>
 </body>
 
 </html>

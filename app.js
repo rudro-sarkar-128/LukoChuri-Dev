@@ -11,8 +11,10 @@ app.set('view engine', 'ejs');
 
 // Routers
 const landingRouter = require("./routers/landing");
+const userRouter = require("./routers/user");
 
 app.use(landingRouter);
+app.use(userRouter);
 
 const PORT = process.env.PORT;
 app.listen(PORT, () => {
