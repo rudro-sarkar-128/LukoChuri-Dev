@@ -35,12 +35,12 @@ body {
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-top: 1rem;
 }
 
 .input-container {
     width: 100%;
-    height: 75%;
+    height: 70%;
+    /* Initially, 75% */
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -73,8 +73,6 @@ body {
 .join-form {
     width: 90%;
     height: 80%;
-    /* background: #181b24;
-    border: 2px solid #282d3c; */
 }
 
 .join-intro {
@@ -95,7 +93,6 @@ body {
     background: #181b24;
     border: 2px solid #282d3c;
     border-radius: 5px;
-    margin-top: 0.5rem;
 }
 
 .email-input-cont input,
@@ -116,6 +113,11 @@ body {
     outline: none;
 }
 
+.password-input-cont,
+.confirm-password-input-cont {
+    margin-top: 0.5rem;
+}
+
 .email-input-cont span,
 .password-input-cont span,
 .confirm-password-input-cont span {
@@ -134,6 +136,77 @@ body {
     opacity: 0.7;
 }
 
+.sso-seperator {
+    width: 65%;
+    height: 0.1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+
+.sso-seperator .seperator {
+    height: 100%;
+    width: 35%;
+    background: var(--defaultLowOpac);
+}
+
+.sso-seperator span {
+    color: #CC2E33;
+}
+
+.sso-cont {
+    height: 15%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.sso-cont div {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow:
+        2px 2px 0px #303030,
+        2px 2px 0px #000000;
+    opacity: 0.5;
+    cursor: not-allowed;
+    transition: opacity 0.2s ease;
+}
+
+.sso-cont div.active {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.sso-cont .google {
+    background: #ffffff;
+    
+}
+
+.sso-cont .apple {
+    background: #ffffff;
+}
+
+.sso-cont .facebook {
+    background: #394d7e;
+    color: #ffffff;
+}
+
+.google svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+}
+
 .extras-cont {
     height: 20%;
     width: 100%;
@@ -142,7 +215,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 
 .extras-cont div {
